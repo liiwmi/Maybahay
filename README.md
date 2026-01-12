@@ -11,7 +11,7 @@ Fonts: Rubik (Google Fonts)
 
 ## Installation and setup
 1. Clone the repo:
-      git clone https://github.com/yourusername/maybahay.git
+      git clone https://github.com/liiwmi/maybahay.git
 2. Install dependencies:
       npm install
 3. Start development server:
