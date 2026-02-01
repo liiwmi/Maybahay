@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import "tailwindcss";
 
-<<<<<<< HEAD
 @theme {
   --font-sans: "Rubik", ui-sans-serif, system-ui, sans-serif;
   --font-size-xl: 1rem; 
@@ -18,14 +17,4 @@ html, body, #root {
   min-height: 100%;
   font-family: var(--font-sans) !important;
   @apply bg-white;
-=======
-
-
-@theme {
-  --font-sans: "Rubik", ui-sans-serif, system-ui, sans-serif;
-  --color-secondary:  #34FA55;
-  --color-primary: #88ff7a;
-  --color-white: #FCFCFC;
-  --color-dark: #060D06;
->>>>>>> 4d5f43e87d5a4e83e3fada723ed396cacad679cd
 }

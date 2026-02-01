@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Maybahay
 Maybahay is an ongoing website project for Animal Adoption center built with React and TailwindCSS for the author's portfolio.
 Any assets used are intended for personal use only.
