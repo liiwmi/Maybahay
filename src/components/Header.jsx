@@ -1,53 +1,35 @@
-import { RiInstagramFill } from "react-icons/ri";
-import headerImage from "../assets/header-img.jpg";
-import Navbar from "./Navbar.jsx";
-import { FaFacebookSquare } from "react-icons/fa";
-import "../styles/Index.css";
+// import { RiInstagramFill } from "react-icons/ri";
+// import { FaFacebookSquare } from "react-icons/fa";
+import Dog from "../assets/dog.svg";
 
 const Header = () => {
   return (
-    <header className="relative w-full h-[80vh] mb-10 overflow-hidden">
-      <div className="absolute top-0 left-0 w-full z-20">
-        <Navbar />
-      </div>
+    <div className="w-screen bg-primary">
 
-      <div
-        className="absolute inset-0 bg-cover bg-position[50%_25%]"
-        style={{ backgroundImage: `url(${headerImage})` }}
-      >
-        <div className="absolute inset-0 bg-black/30"></div>
+      <header className="w-full h-4/6 mx-auto md:justify-center md:flex md:items-center lg:w-6xl md:max-w-3/4  cursor-default">
 
-        <div className="relative h-full max-w-7xl my-10 mx-auto flex items-center justify-end px-10 md:px-20">
-          <div className="w-full md:w-1/2 lg:w-2/5 text-right md:text-left">
-            <h1 className="text-white text-5xl md:text-7xl font-extrabold leading-[0.9] drop-shadow-lg">
-              Building families, <span className="text-primary">one paw </span>
-              at a time.
-            </h1>
-            <p className="text-white text-lg mt-4 mb-4 max-w-md ml-auto md:ml-0">
-              Maybahay connects loving homes with pets in need. Adopt a best
-              friend today!
-            </p>
-            <div className="flex gap-4 text-1xl">
-              <a
-                href="#"
-                className="text-white text-lg hover:text-primary transition"
-              >
-                <FaFacebookSquare size={32} className="rounded-10" />
-              </a>
-              <a
-                href="#"
-                className="text-white text-xl hover:text-primary transition"
-              >
-                <RiInstagramFill size={33.5} />
-              </a>
-            </div>
-            <button className="mt-8 bg-white text-blue-600 font-bold py-3 px-10 rounded-full hover:bg-primary transition shadow-lg">
-              Adopt now
-            </button>
-          </div>
+      <section className="flex flex-row items-center justify-center px-2 py-4  md:justify-center md:pt-10 md:px-6 max-w-6xl ">
+        <div className="w-3/5 max-w-sm md:w-2/5 lg:w-1/4">
+          <img
+            src={Dog}
+            alt="Happy dog"
+            className="w-full h-auto object-contain drop-shadow-xl"
+          ></img>
         </div>
-      </div>
+
+        <div className=" w-2/5 text-left order-2 mb-14 md:mb-6 md:w-3/5 lg:w-3/4 md:py-6">
+          <h1 className="text-[27px] md:text-2xl lg:text-3xl font-bold mb-8 md:mb-0 leading-none">
+            Building families, <br className="md:hidden"/>
+            <span className="text-white"> one paw</span> at <br className="md:hidden"/>a time.
+          </h1>
+          <p className="hidden md:block md:text-sm lg:text-base py-4 mb-6">Maybahay helps rescue and rehome stray dogs and cats across the Philippines. </p>
+          <button className="bg-dark text-primary px-3 py-2 rounded-xl text-m md:text-base hover:duration-150 ease-in-out hover:shadow-lg duration-150 hover:text-white  cursor-pointer transition">Adopt now!</button>
+        </div>
+        </section>
+
     </header>
+    </div>
+    
   );
 };
 
