@@ -27,4 +27,4 @@ LInkedin: https://www.linkedin.com/in/stephanie-guiang-0b30ab295/
 ## Contact the author
 Github: liiwmi
 Gmail: stephaniemaebguiang@gmail.com
->>>>>>> 4d5f43e87d5a4e83e3fada723ed396cacad679cd
+
