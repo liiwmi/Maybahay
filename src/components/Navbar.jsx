@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HiMenuAlt3, HiX } from "react-icons/hi"; // Install with: npm install react-icons
+import { HiMenuAlt3, HiX } from "react-icons/hi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,6 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-xl font-bold z-50 cursor-default">Maybahay</div>
 
-        {/* Desktop Links (Hidden on mobile) */}
         <ul className="hidden md:flex gap-6 items-center text-base">
           <li className="hover:duration-150 ease-in-out hover:scale-105 hover:text-white cursor-pointer transition">
             About

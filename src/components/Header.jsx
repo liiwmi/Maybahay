@@ -1,5 +1,4 @@
-// import { RiInstagramFill } from "react-icons/ri";
-// import { FaFacebookSquare } from "react-icons/fa";
+
 import Dog from "../assets/dog.svg";
 
 const Header = () => {
