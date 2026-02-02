@@ -13,15 +13,19 @@ Any assets used are intended for personal use only.
 ---
 
 ### Installation and Setup
-1. **Clone the repo:** `git clone https://github.com/liiwmi/maybahay.git`
-2. **Install dependencies:** `npm install`
-3. **Install styling utilities:** `npm install -D tailwindcss postcss autoprefixer`  
-   `npm install tailwind-merge`
-4. **Start development server:** `npm run dev`
+1. **Clone the repo:** <br/>   
+      `git clone https://github.com/liiwmi/maybahay.git`<br/> 
+2. **Install dependencies:**<br/> 
+      `npm install`<br/> 
+3. **Install styling utilities:** <br/> 
+      `npm install -D tailwindcss postcss autoprefixer`  <br/> 
+      `npm install tailwind-merge`<br/> 
+4. **Start development server:** <br/> 
+      `npm run dev`<br/> 
 
 
 ## Contact 
-Github: github.com/liiwmi
-LInkedin: https://www.linkedin.com/in/stephanie-guiang-0b30ab295/
-Gmail: stephaniemaebguiang@gmail.com
+- **Github:** github.com/liiwmi<br/> 
+- **LInkedin:** https://www.linkedin.com/in/stephanie-guiang-0b30ab295/<br/> 
+- **Gmail:** stephaniemaebguiang@gmail.com<br/> 
 
