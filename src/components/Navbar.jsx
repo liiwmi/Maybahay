@@ -40,7 +40,7 @@ const Navbar = () => {
         />
         {/* Hamburger Icon (Visible only on mobile) */}
         <div
-          className="md:hidden z-51 text-xl font-semibold cursor-pointer "
+          className="md:hidden z-55 text-xl font-semibold cursor-pointer "
           onClick={toggleMenu}
         >
           {isOpen ? <HiX /> : <HiMenuAlt3 />}
@@ -48,7 +48,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Overlay */}
         <div
-          className={`fixed w-4/6 md:w-[40%] top-0 right-0 h-full bg-white text-base flex flex-col items-center justify-center gap-6 transition-all duration-300 z-50 ${
+          className={`fixed w-4/6 md:w-[40%] top-0 right-0 h-full bg-white text-base flex flex-col items-center justify-center gap-6 transition-all duration-300 z-51 ${
             isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
           }`}
         >
