@@ -6,7 +6,7 @@ Any assets used are intended for personal use only.
 ## Tech Stack:
 Framework: React 19
 Build Tool: Vite 
-Styling: Tailwind CSS v4
+Styling: Tailwind CSS v4, Tailwind Merge
 Icons: Lucide-React
 Fonts: Rubik (Google Fonts)
 
@@ -15,8 +15,10 @@ Fonts: Rubik (Google Fonts)
       git clone https://github.com/liiwmi/maybahay.git
 2. Install dependencies:
       npm install
+3. Install styling utilities
+      npm install -D tailwindcss postcss autoprefixer
       npm install tailwind-merge
-3. Start development server:
+4. Start development server:
       npm run dev
 
 
