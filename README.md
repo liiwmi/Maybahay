@@ -26,7 +26,7 @@ Any assets used are intended for personal use only.
 
 ## Contact 
 - **Github:** github.com/liiwmi<br/> 
-- **Linkedin:** https://www.linkedin.com/in/stephanie-guiang-0b30ab295/<br/> 
+- **LInkedin:** https://www.linkedin.com/in/stephanie-guiang-0b30ab295/<br/> 
 - **Gmail:** stephaniemaebguiang@gmail.com<br/> 
 
 ## Contact 
