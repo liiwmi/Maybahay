@@ -13,7 +13,7 @@ Any assets used are intended for personal use only.
 ---
 
 ### Installation and Setup
-1. **Clone the repo:** <br/>   
+1. **Clone the repo:**<br/>
       `git clone https://github.com/liiwmi/maybahay.git`<br/> 
 2. **Install dependencies:**<br/> 
       `npm install`<br/> 
