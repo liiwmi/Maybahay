@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import images from '../../public/carousel.js';
+import images from '../assets/Carousel/carousel.js';
 import "../styles/Index.css";
 
 function Carousel() {
