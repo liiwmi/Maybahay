@@ -5,6 +5,7 @@ import Adopt from "./Adopt.jsx";
 import Navbar from "../components/Navbar.jsx";
 import Stats from "../components/Stats.jsx";
 import Carousel from "../components/Carousel.jsx";
+import Card from "../components/Card.jsx";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Header/>
       <Stats />
       <Carousel/>
+      <Card/>
     </div>
   );
 };
