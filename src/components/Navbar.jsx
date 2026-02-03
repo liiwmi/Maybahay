@@ -21,7 +21,13 @@ const Navbar = () => {
             Contact us
           </li>
           <li className="hover:duration-150 ease-in-out hover:scale-105 hover:text-white cursor-pointer transition">
+            Join us
+          </li>
+          <li className="hover:duration-150 ease-in-out hover:scale-105 hover:text-white cursor-pointer transition">
             Our Pets
+          </li>
+          <li className="hover:duration-150 ease-in-out hover:scale-105 hover:text-white cursor-pointer transition">
+            FAQs
           </li>
           <li className="hover:duration-150 ease-in-out hover:scale-105 hover:text-white cursor-pointer transition">
             Donate
@@ -60,8 +66,14 @@ const Navbar = () => {
           <li className="list-none " onClick={toggleMenu}>
             Contact us
           </li>
+          <li className="list-none" onClick={toggleMenu}>
+            Join us
+          </li>
           <li className="list-none " onClick={toggleMenu}>
             Our Pets
+          </li>
+          <li className="list-none" onClick={toggleMenu}>
+            FAQs
           </li>
           <li className="list-none " onClick={toggleMenu}>
             Donate
