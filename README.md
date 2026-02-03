@@ -29,3 +29,9 @@ Any assets used are intended for personal use only.
 - **LInkedin:** https://www.linkedin.com/in/stephanie-guiang-0b30ab295/<br/> 
 - **Gmail:** stephaniemaebguiang@gmail.com<br/> 
 
+## Contact 
+- **Github:** github.com/Ysaiahv2<br/> 
+- **Gmail:** ysabelmanlogon14@gmail.com<br/> 
+
+
+
