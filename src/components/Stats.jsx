@@ -6,7 +6,7 @@ const Stats = () => {
   ];
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center absolute w-full">
       <div className="bg-dark text-white flex justify-around items-center py-4 px-4 shadow-lg relative -top-14 z-45 rounded-2xl w-5/6">
       {statData.map((item, index) => (
         <div
