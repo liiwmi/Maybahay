@@ -8,6 +8,8 @@ function Carousel() {
 
   if (!images || images.length === 0) return <div>Loading...</div>;
 
+
+  //!do not remove, will be used for functionality in the future
   const handlePreviousClick = () => {
       setCurrentImageIndex(
           currentImageIndex === 0 ? images.length - 1 : currentImageIndex - 1
@@ -27,10 +29,10 @@ function Carousel() {
   }, [currentImageIndex]);
 
 return(
-<div className="h-[56vh] lg:mt-14">
-    <section className="w-full px-10 py-12 flex flex-col items-start justify-center">
+<div className="h-[56vh] md:mt-14">
+    <section className="w-full py-12 flex flex-col items-start justify-center ">
         
-        <div className="w-full bg-amber-300 ">
+        <div className="w-5/6 mx-auto lg:max-w-6/8">
           <div className="flex flex-col items-start justify-center mb-4 leading-tight lg:mb-10 ">
             <h2 className="text-dark text-2xl font-semibold md:text-4xl">Project Happy Tails</h2>
             <p className='text-dark/90 text-sm md:text-xl'>Check out our latest projects and join us in our journey!</p>
@@ -38,13 +40,13 @@ return(
         </div>
         
         
-<div className="w-full  mx-auto ">
-    <div className="relative w-full h-50 mx-auto rounded-2xl overflow-hidden shadow-lg ring-1 ring-dark/5 
-    md:h-87.5 md:w-11/12 lg:h-175 lg:w-7/8">
+<div className="w-full h-full mx-auto ">
+    <div className="relative max-w-5/6 lg:max-w-6/8 mx-auto rounded-2xl overflow-hidden shadow-lg ring-1 ring-dark/5 
+    h-[30dvh] md:h-[34dvh]">
     {images.map((image, index) => (
      <div 
       key={image.id || index}
-      className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
+      className={`absolute inset-0 transition-opacity duration-7  00 ease-in-out ${
         currentImageIndex === index ? 'opacity-100 z-10' : 'opacity-0 z-0'
       }`}
     >
