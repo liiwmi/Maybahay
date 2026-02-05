@@ -8,7 +8,7 @@ import Carousel from "../components/Carousel.jsx";
 
 const App = () => {
   return (
-    <div className="min-h-dvh w-full text-dark scroll-smooth scroll-x-hidden">
+    <div className="min-h-dvh w-full text-dark scroll-smooth overflow-x-clip">
       <Navbar/>
       <Header/>
       <Stats />

@@ -9,11 +9,11 @@ const Navbar = () => {
 
   return (
     <div className="bg-primary">
-      <nav className="w-full lg:max-w-5/6 py-4 px-10 flex justify-between items-center md:mx-auto text-dark">
+      <nav className="w-full lg:max-w-5/6 py-4 px-10 flex justify-between items-center md:mx-auto text-dark ">
         {/* Logo */}
         <div className="text-xl font-bold z-49 cursor-default">Maybahay</div>
 
-        <ul className="hidden md:flex gap-6 items-center text-base">
+        <ul className="hidden md:flex gap-6 items-center text-base md:text-sm lg:text-base">
           <li className="hover:duration-150 ease-in-out hover:scale-105 hover:text-white cursor-pointer transition">
             About
           </li>
