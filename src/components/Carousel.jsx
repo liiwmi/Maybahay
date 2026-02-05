@@ -27,16 +27,20 @@ function Carousel() {
   }, [currentImageIndex]);
 
 return(
-<div className="h-[40vh]">
+<div className="h-[56vh] lg:mt-14">
     <section className="w-full px-10 py-12 flex flex-col items-start justify-center">
         
-        <div className="flex flex-col items-start mb-4 leading-tight">
-            <h2 className="text-dark text-2xl font-semibold">Project Happy Tails</h2>
-            <p className='text-dark/90 text-sm'>Check out our latest projects and join us in our journey!</p>
+        <div className="w-full bg-amber-300 ">
+          <div className="flex flex-col items-start justify-center mb-4 leading-tight lg:mb-10 ">
+            <h2 className="text-dark text-2xl font-semibold md:text-4xl">Project Happy Tails</h2>
+            <p className='text-dark/90 text-sm md:text-xl'>Check out our latest projects and join us in our journey!</p>
+        </div>
         </div>
         
-<div className="w-full max-w-5xl mx-auto">
-    <div className="relative w-full h-[200px] mx-auto rounded-2xl overflow-hidden shadow-lg ring-1 ring-dark/5">
+        
+<div className="w-full  mx-auto ">
+    <div className="relative w-full h-50 mx-auto rounded-2xl overflow-hidden shadow-lg ring-1 ring-dark/5 
+    md:h-87.5 md:w-11/12 lg:h-175 lg:w-7/8">
     {images.map((image, index) => (
      <div 
       key={image.id || index}
