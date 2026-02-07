@@ -1,17 +1,17 @@
-import Dog_1 from "../src/assets/pet_cards/dog_1.jpg";
-import Dog_2 from "../src/assets/pet_cards/dog_2.jpg";
-import Dog_3 from "../src/assets/pet_cards/dog_3.jpg";
-import Dog_4 from "../src/assets/pet_cards/dog_4.jpg";
-import Dog_5 from "../src/assets/pet_cards/dog_5.jpg";
-import Dog_6 from "../src/assets/pet_cards/dog_6.jpg";
-import Dog_7 from "../src/assets/pet_cards/dog_7.jpg";
-import Dog_8 from "../src/assets/pet_cards/dog_8.webp";
+import Dog_1 from "../assets/pet_cards/dog_1.jpg";
+import Dog_2 from "../assets/pet_cards/dog_2.jpg";
+import Dog_3 from "../assets/pet_cards/dog_3.jpg";
+import Dog_4 from "../assets/pet_cards/dog_4.jpg";
+import Dog_5 from "../assets/pet_cards/dog_5.jpg";
+import Dog_6 from "../assets/pet_cards/dog_6.jpg";
+import Dog_7 from "../assets/pet_cards/dog_7.jpg";
+import Dog_8 from "../assets/pet_cards/dog_8.webp";
 
-import Cat_1 from "../src/assets/pet_cards/cat_1.jpg";
-import Cat_2 from "../src/assets/pet_cards/cat_2.jpg";
-import Cat_3 from "../src/assets/pet_cards/cat_3.jpg";
-import Cat_4 from "../src/assets/pet_cards/cat_4.jpg";
-import Cat_5 from "../src/assets/pet_cards/cat_5.jpg";
+import Cat_1 from "../assets/pet_cards/cat_1.jpg";
+import Cat_2 from "../assets/pet_cards/cat_2.jpg";
+import Cat_3 from "../assets/pet_cards/cat_3.jpg";
+import Cat_4 from "../assets/pet_cards/cat_4.jpg";
+import Cat_5 from "../assets/pet_cards/cat_5.jpg";
 
 const PET_DATA = [
   {
