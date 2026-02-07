@@ -18,7 +18,7 @@ const Navbar = () => {
           Maybahay
         </Link>
 
-        <ul className="hidden md:flex gap-6 items-center text-base md:text-sm lg:text-base">
+        <ul className="hidden md:flex gap-6 items-center text-base md:gap-4 md:text-sm lg:text-base">
           {navLinks.map((link) => (
             <li key={link.path}>
               <Link to={link.path} className={linkStyles}>{link.name}</Link>
