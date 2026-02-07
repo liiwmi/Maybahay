@@ -1,11 +1,11 @@
 import "../styles/Index.css";
-import PET_DATA from "../data/pets.js"; // This is your external data source
+import PET_DATA from "../data/pets.js"; 
 
 function Card({ name, breed, image, age, status }) {
   return (
-    // "wag mo galawin!!" - Kept the structure as requested
+    // "wag mo galawin!!"
     <div className="w-full p-2">
-      <div className="rounded-2xl shadow-lg p-2 bg-white hover:shadow-xl transition-shadow duration-300">
+      <div className="rounded-2xl p-2 bg-white hover:shadow-xl transition-shadow duration-300">
         {/*Image Container*/}
         <div className="relative bg-white rounded-xl overflow-hidden">
           <img
