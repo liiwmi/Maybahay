@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <div className="min-h-dvh w-full text-dark scroll-smooth overflow-x-clip">
         <Navbar />
-
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/adopt" element={<PetList />} />

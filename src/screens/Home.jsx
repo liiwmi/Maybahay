@@ -2,7 +2,6 @@ import Header from "../components/Header.jsx";
 import "../styles/Index.css";
 import Stats from "../components/Stats.jsx";
 import Carousel from "../components/Carousel.jsx";
-import Card from "../components/Card.jsx";
 
 const Home = () => {
   return (

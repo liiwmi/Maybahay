@@ -1,5 +1,6 @@
 import "../styles/Index.css";
 import PET_DATA from "../data/pets.js"; // This is your external data source
+import Card from "../components/Card.jsx";
 
 export default function PetList() {
   return (
